@@ -1,0 +1,510 @@
+{% extends 'base.html' %}
+
+{% block title %}
+HOME
+{% endblock title %}
+
+{% block body %}
+  <!---  {% with messages=get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+
+        <div class="alert alert-{{category}} alert-dismissible fade show"
+        role = "alert" style="margin-left:5px!important; margin-bottom:50px !important;">
+        {{message}}
+
+        <button type = "button" class="close" data-dismiss="alert"
+        aria-label = "Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+
+        {%endfor%}
+        {%endif%}
+        {%endwith%}-->
+
+  <!-- Hero Section Start -->
+        <section class="hero-wrap style1">
+            <div class="hero-slider-one owl-carousel">
+                <div class="hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center gx-5">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="hero-content">
+                                    <span>We Take Care Of Your Health</span>
+                                    <h1>We Are Providing Best &amp; Affordable Health Care</h1>
+                                    <p>Ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old richer.</p>
+                                    <div class="hero-btn">
+                                        <a href="/doctors" class="btn style1">Find Out More</a>
+                                        <a href="/" class="btn style3">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="hero-img-wrap">
+                                    <img class="hero-img" src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-img-1.jpg" alt="Image">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-1.png" alt="Image" class="hero-shape-one moveHorizontal">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-2.png" alt="Image" class="hero-shape-two rotate">
+                                    <div class="row promo-box-wrap">
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-support"></i></span>
+                                                <h4>24/7 Support</h4>
+                                                <p>There are many variations of passages are valid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-aid-man"></i></span>
+                                                <h4>Qualified Doctors</h4>
+                                                <p>There are many variations of passages are valid.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center gx-5">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="hero-content">
+                                    <span>24/7 Call Support</span>
+                                    <h1>Join Us Forever To Get Help From Anywhere</h1>
+                                    <p>Ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old richer.</p>
+                                    <div class="hero-btn">
+                                        <a href="/" class="btn style1">Find Out More</a>
+                                        <a href="service-one.html" class="btn style3">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="hero-img-wrap">
+                                    <img class="hero-img" src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-img-8.jpg" alt="Image">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-1.png" alt="Image" class="hero-shape-one moveHorizontal">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-2.png" alt="Image" class="hero-shape-two rotate">
+                                    <div class="row promo-box-wrap">
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-support"></i></span>
+                                                <h4>24/7 Support</h4>
+                                                <p>There are many variations of passages are valid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-aid-man"></i></span>
+                                                <h4>Qualified Doctors</h4>
+                                                <p>There are many variations of passages are valid.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide-item">
+                    <div class="container">
+                        <div class="row align-items-center gx-5">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="hero-content">
+                                    <span>Telemedicine Help</span>
+                                    <h1>Most Complete Health Solution In Your Hands</h1>
+                                    <p>Ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old richer.</p>
+                                    <div class="hero-btn">
+                                        <a href="/" class="btn style1">Find Out More</a>
+                                        <a href="service-one.html" class="btn style3">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="hero-img-wrap">
+                                    <img class="hero-img" src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-img-9.jpg" alt="Image">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-1.png" alt="Image" class="hero-shape-one moveHorizontal">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/hero/hero-shape-2.png" alt="Image" class="hero-shape-two rotate">
+                                    <div class="row promo-box-wrap">
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-support"></i></span>
+                                                <h4>24/7 Support</h4>
+                                                <p>There are many variations of passages are valid.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-7 col-md-5">
+                                            <div class="promo-box">
+                                                <span><i class="flaticon-aid-man"></i></span>
+                                                <h4>Qualified Doctors</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- Counter Section Start -->
+        <div class="counter-wrap pt-100 pb-75  bg-blue">
+            <div class="container">
+                <div class="counter-card-wrap style1 pb-75" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <div class="counter-card style1">
+                        <span class="counter-icon">
+                                <i class="flaticon-admision-form"></i>
+                            </span>
+                        <div class="counter-text">
+                            <h2 class="counter-num">
+                                <span class="odometer" data-count="60"></span>
+                                <span class="target">+</span>
+                            </h2>
+                            <p>Project Completed</p>
+                        </div>
+                    </div>
+                    <div class="counter-card style1">
+                        <span class="counter-icon">
+                                <i class="flaticon-doctor"></i>
+                            </span>
+                        <div class="counter-text">
+                            <h2 class="counter-num">
+                                <span class="odometer" data-count="99"></span>
+                                <span class="target">%</span>
+                            </h2>
+                            <p>Patients Satisfied</p>
+                        </div>
+                    </div>
+                    <div class="counter-card style1">
+                        <span class="counter-icon">
+                                <i class="flaticon-medical-operation"></i>
+                            </span>
+                        <div class="counter-text">
+                            <h2 class="counter-num">
+                                <span class="odometer" data-count="700"></span>
+                                <span class="target">+</span>
+                            </h2>
+                            <p>Medical Beds</p>
+                        </div>
+                    </div>
+                    <div class="counter-card style1">
+                        <span class="counter-icon">
+                                <i class="flaticon-blood-test"></i>
+                            </span>
+                        <div class="counter-text">
+                            <h2 class="counter-num">
+                                <span class="odometer" data-count="70"></span>
+                                <span class="target">+</span>
+                            </h2>
+                            <p>Laboratory Experts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promo-wrap style1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="promo-card">
+                            <div class="promo-icon">
+                                <i class="flaticon-dentist"></i>
+                            </div>
+                            <div class="promo-info">
+                                <h3>Dentristy Care</h3>
+                                <p>There are many variations of passages of words are valid.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                        <div class="promo-card">
+                            <div class="promo-icon">
+                                <i class="flaticon-disability"></i>
+                            </div>
+                            <div class="promo-info">
+                                <h3>Orthopedic Care</h3>
+                                <p>There are many variations of passages of words are valid.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="promo-card">
+                            <div class="promo-icon">
+                                <i class="flaticon-x-ray"></i>
+                            </div>
+                            <div class="promo-info">
+                                <h3>Cosmetic Dentist</h3>
+                                <p>There are many variations of passages of words are valid.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-10">
+                    <p class="mb-0">We have all kinds of hospital treatment.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Section End -->
+
+        <!-- About Section Start -->
+        <section class="about-wrap style1 ptb-100">
+            <div class="container">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="about-img-wrap">
+                            <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/about/about-img-1.jpg" alt="Image" class="about-img-one">
+                            <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/about/about-img-2.jpg" alt="Image" class="about-img-two">
+                            <div class="about-doctor-box">
+                                <div class="doctor-img">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/about/doctor-1.jpg" alt="Image">
+                                </div>
+                                <div class="doctor-info">
+                                    <h5>Dr. Kate Winslet</h5>
+                                    <span>Radiology</span>
+                                </div>
+                                <button type="button" class="btn style1">Select</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="about-content">
+                            <div class="content-title style1">
+                                <span>About Our Program</span>
+                                <h2>Take Care Of Your Health With Our Health Package</h2>
+                                <p>There are many variations of passages of Lorem Ipsum amets avoilble but majority have suffered alteration in some form, by injected humour or randomise words which don't sure amet consec tetur adicing.</p>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-7">
+                                    <ul class="content-feature-list list-style">
+                                        <li><i class="ri-checkbox-circle-line"></i>Provide More Potential Health
+                                        </li>
+                                        <li><i class="ri-checkbox-circle-line"></i>Operational Research Transformation
+                                        </li>
+                                        <li><i class="ri-checkbox-circle-line"></i>Mental health Solution
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="about-promo-video bg-f">
+                                        <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
+                                                <i class="ri-play-fill"></i>
+                                                <span class="ripple"></span>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ceo-msg">
+                                <div class="ceo-img">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/about/doctor-2.jpg" alt="Image">
+                                </div>
+                                <p>"Think Hard And Focus On The Patient's Well-Being"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+
+
+
+
+        <!-- Footer Section Start -->
+        <footer class="footer-wrap">
+            <div class="container">
+                <div class="row pt-100 pb-75">
+                    <div class="col-xl-3 col-lg-5 col-md-5 col-sm-12">
+                        <div class="footer-widget">
+                            <a href="index.html" class="footer-logo">
+                                    <img src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/img/logo-white.png" alt="Image">
+                                </a>
+                            <p class="comp-desc">
+                                Lorem ipsum dolor sit amet consc tetur adicing elit. Dolor emque dicta molest enim beatae ame consequ atur tempo pretium auctor nam.
+                            </p>
+                            <ul class="social-profile style1 list-style">
+                                <li>
+                                    <a href="https://www.facebook.com/abdulrafay.atiq.75">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/abdulrafay.atiq.75">
+                                            <i class="ri-twitter-fill"></i>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/abdulrafayatiq/">
+                                            <i class="ri-instagram-line"></i>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/abdul-rafay-atiq-699008230/">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Company</h3>
+                            <ul class="footer-menu list-style">
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           Home
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            About Us
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                          Our Services
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            Our Team
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           Contact Us
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Important</h3>
+                            <ul class="footer-menu list-style">
+                                <li>
+                                    <a href="/doctors">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           Portfolio
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/doctors">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                          Appointment
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            FAQ 
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            Privacy Policy
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            Terms &amp; Conditions
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-5 col-md-6 col-sm-6 pe-xl-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Quick Link</h3>
+                            <ul class="footer-menu list-style">
+                                <li>
+                                    <a href="/">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           Why Choose Us
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/doctors">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            Pricing Plan
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/doctors">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           News &amp; Articles
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/login">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                           Login
+                                        </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                            Subscribe
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-7 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title">Official Info</h3>
+                            <ul class="contact-info list-style">
+                                <li>
+                                    <i class="flaticon-map"></i>
+                                    <h6>Location</h6>
+                                    <p>2767 Sunrise Street, NY 1002, USA</p>
+                                </li>
+                                <li>
+                                    <i class="flaticon-email-1"></i>
+                                    <h6>Email</h6>
+                                    <a href="/cdn-cgi/l/email-protection#c2aaa7aeaead82b6a7aeabeca1adaf"><span class="__cf_email__" data-cfemail="c8a0ada4a4a788bcada4a1e6aba7a5">[email&#160;protected]</span></a>
+                                </li>
+                                <li>
+                                    <i class="flaticon-phone-call-1"></i>
+                                    <h6>Phone</h6>
+                                    <a href="tel:13454567877">03340725087</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright-text"><i class="ri-copyright-line"></i> <span>Medicare</span>. All Rights Reserved By <a href="https://www.linkedin.com/in/abdul-rafay-atiq-699008230/">Rafay Atiq</a></p>
+        </footer>
+        <!-- Footer Section End -->
+
+    </div>
+    <!-- Page Wrapper End -->
+
+    <!-- Back-to-top button Start -->
+    <a href="javascript:void(0)" class="back-to-top bounce"><i class="ri-arrow-up-s-line"></i></a>
+    <!-- Back-to-top button End -->
+
+    <!-- Link of JS files -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/jquery.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/form-validator.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/contact-form-script.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/aos.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/owl.carousel.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/odometer.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/fancybox.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/jquery.appear.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/tweenmax.min.js"></script>
+    <script src="static/static4/templates.hibotheme.com/templates.hibotheme.com/teli/default/assets/js/main.js"></script>
+{% endblock body %}
